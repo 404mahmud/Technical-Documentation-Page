@@ -1,0 +1,23 @@
+#sidebar {
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+    background-color: #FFFFFF;
+    border: 3px solid;
+    font-size: 24px;
+    }
+    
+    #sidebar div {
+    padding: 8px;
+    font-size: 18px;
+    display: block;
+    border: 0.5px solid;
+    }
+    
+    #body-text {
+    margin-right: 150px;
+    font-size: 18px;
+    }

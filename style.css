@@ -18,6 +18,14 @@
     }
     
     #body-text {
-    margin-right: 150px;
+    margin-right: 0px;
+    margin-left: 330px;
     font-size: 18px;
     }
+
+    pre code {
+        background-color: #eee;
+        border: 1px solid #999;
+        display: block;
+        padding: 5px;
+      }

@@ -1,31 +1,52 @@
 #sidebar {
-    height: 100%;
-    width: 300px;
-    position: fixed;
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-top: 20px;
+  background-color: #FFFFFF;
+  border: 3px solid grey;
+  font-size: 24px;
+}
+
+
+#sidebar div {
+  padding: 8px;
+  font-size: 18px;
+  display: block;
+  border: 0.5px solid grey;
+}
+
+#body-text {
+  margin-right: 0px;
+  margin-left: 330px;
+  font-size: 18px;
+}
+
+pre code {
+  background-color: #eee;
+  border: 1px solid #999;
+  display: block;
+  padding: 5px;
+}
+
+@media only screen and (max-width: 200px) {
+  #sidebar {
+    height: 20%;
+    width: auto;
+    position: absolute;
     top: 0;
     left: 0;
     padding-top: 20px;
     background-color: #FFFFFF;
     border: 3px solid grey;
-    font-size: 24px;
-    }
-    
-    #sidebar div {
-    padding: 8px;
     font-size: 18px;
-    display: block;
-    border: 0.5px solid grey;
-    }
-    
-    #body-text {
-    margin-right: 0px;
-    margin-left: 330px;
-    font-size: 18px;
-    }
+  }
 
-    pre code {
-        background-color: #eee;
-        border: 1px solid #999;
-        display: block;
-        padding: 5px;
-      }
+  #body-text {
+    margin-right: 0px;
+    margin-left: 0px;
+    font-size: 18px;
+  }
+}
